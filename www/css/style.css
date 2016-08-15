@@ -1,0 +1,85 @@
+/* Empty. Add your own CSS if you like */
+.mi_contenedor{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.mi_contenedor2{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    aling:center;
+}
+
+.center {
+    margin: auto;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.popup-head {
+    background-color: #009689;
+}
+
+.popup-title {
+    color: white;
+}
+
+.popup-buttons .button {
+    background-color: #009689;
+    font-size: 20px;
+}
+
+.popup-buttons .button.activated {
+    background-color: gray;
+}
+
+@import "http://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px;
+}
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+}
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+
+.rwd-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+.rwd-table tr {
+  border-color: #46637f;
+}
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    padding: 1em !important;
+  }
+}
+.rwd-table th, .rwd-table td:before {
+  color: #dd5;
+}

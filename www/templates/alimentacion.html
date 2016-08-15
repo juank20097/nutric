@@ -1,0 +1,24 @@
+<ion-view view-title="Datos" hide-nav-bar="true">
+
+<!-- Menu no repetido de la clase abstracta --> 
+	<ion-header-bar class="bar bar-header bar-positive">
+		    <a class="button button-icon ion-ios-undo button-clear" href="#/app/imc/{{genero}}/{{edad}}/{{talla}}/{{peso}}"></a>
+        <h1 class="title">Alimentación</h1>
+      </ion-header-bar>
+
+  <ion-content>
+<div align="center" class="mi_contenedor">
+<table class="rwd-table">
+  <tr>
+    <th>Alimentación:</th>
+    <th>Tiempos de Comidas:</th>
+  </tr>
+  <tr>
+    <td data-th="Alimentos">{{alimentacion}}</td>
+    <td data-th="Tiempos de Comida">{{tiempo}}</td>
+  </tr>
+</table>
+   </div>
+  </ion-content>
+  
+</ion-view>

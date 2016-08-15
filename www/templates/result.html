@@ -1,0 +1,31 @@
+<ion-view view-title="Datos" hide-nav-bar="true">
+
+<!-- Menu no repetido de la clase abstracta --> 
+  <ion-header-bar class="bar bar-header bar-calm">
+         <a class="button button-icon ion-ios-undo button-clear" href="#/app/datos"></a>
+        <h1 class="title">Resultados</h1>
+        
+      </ion-header-bar>
+
+  <ion-content>
+    <div class="mi_contenedor">
+
+      <div class="item item-divider item-stable">Datos</div>
+      <a class="item" >
+         <strong>Genero:</strong>&nbsp;&nbsp;{{genero}} 
+      </a>
+      <a class="item" >
+         <strong>Edad:</strong>&nbsp;&nbsp; {{edad}}&nbsp;&nbsp; Años
+      </a>
+      <a class="item" >
+         <strong>Peso:</strong>&nbsp;&nbsp; {{peso}}&nbsp;&nbsp; Kg
+      </a>
+      <a class="item" >
+         <strong>Talla:</strong>&nbsp;&nbsp; {{talla}} &nbsp;&nbsp; cm
+      </a>
+
+        <br/>
+        <a class="button button-block button-calm icon-right ion-android-person" href="#/app/imc/{{genero}}/{{edad}}/{{talla}}/{{peso}}">Ver mi IMC</a>
+    </div> 
+  </ion-content>
+</ion-view>
